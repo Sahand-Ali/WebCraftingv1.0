@@ -26,21 +26,24 @@
 
     <style>
         body {
-            
-            background: #2193b0;  
-            background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
-            background: linear-gradient(to right, #6dd5ed, #2193b0); 
-            
+
+            background: #2193b0;
+            background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+            background: linear-gradient(to right, #6dd5ed, #2193b0);
+
         }
-        .con{
+
+        .con {
             animation: transitionIn 0.76s;
         }
-        @keyframes transitionIn{
-            from{
+
+        @keyframes transitionIn {
+            from {
                 opacity: 0;
                 transform: rotate(00.01deg);
             }
-            to{
+
+            to {
                 opacity: 1;
                 transform: rotate(0);
             }
@@ -57,10 +60,10 @@
             <div class="navbar-content">
                 <button class="btn btn-action" type="button" onclick="halfmoon.toggleSidebar()">
                     <i class="fa fa-bars" aria-hidden="true"></i>
-                    <span class="sr-only">Toggle sidebar</span> 
+                    <span class="sr-only">Toggle sidebar</span>
                 </button>
             </div>
-            
+
             <a href="index.html" class="navbar-brand">
                 <img src="image/tools.png" alt="...">
                 Web Crafting
@@ -69,7 +72,7 @@
 
 
             <form class="form-inline d-none d-md-flex ml-auto" action="..." method="...">
-                
+
                 <button class="btn " type="button" onclick="toggleDemo()">
                     <i class="far fa-moon">
                     </i>
@@ -82,7 +85,7 @@
                 </script>
             </form>
             <div class="navbar-content d-md-none ml-auto">
-            
+
                 <div class="dropdown with-arrow">
                     <button class="btn" data-toggle="dropdown" type="button" id="navbar-dropdown-toggle-btn-1">
                         Menu
@@ -157,35 +160,131 @@
 
 
 
-        <div class="content-wrapper">
+        <div class="content-wrapper row">
 
 
             <div class="card shadow-lg " style="width: 50rem;">
                 <img src="image/undraw_landing_page_re_6xev.svg" class="card-img-top"
                     style="width: 250px; height: 250px;">
                 <div class="card-body">
-                    <h5 class="card-title text-primary">Crafting Websites with Excellence  <span class="badge ml-5">
-                        <i class="fa fa-heart text-danger mr-5" aria-hidden="true"></i> 250 likes
-                    </span></h5></h5>
+                    <h5 class="card-title text-primary">Coding Standards <span class="badge ml-5">
+                            <i class="fa fa-heart text-danger mr-5" aria-hidden="true"></i> 250 likes
+                        </span></h5>
+                    </h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
                     <p class="card-text">
-                        <h6><i>Best Practices</i></h6>
+                        <h6><i>Embrace coding standards:</i></h6>
 
-                        <p class="text-primary">Coding Standards:</p>
-                        
-                        <p>Embrace coding standards to ensure clean, maintainable, and efficient code.</p>
+                        <p class="text-danger">Definition:</p>
 
-                        <p class="text-primary">Optimization Techniques:</p>
-                        
-                        <p>Explore techniques for optimizing website performance, from image compression to code minification.</p>
-                        
-                        <p class="text-primary">Security Measures:</p>
-                        
-                        <p>Understand the importance of implementing security measures to protect your websites and users.</p>
+                        <p>Coding standards are norms and practises that developers adhere to when producing code. They
+                            assure the codebase's uniformity, readability, and maintainability.(Bose, 2023)</p>
+
+                        <p class="text-danger">Importance:</p>
+
+                        <p>Following coding standards leads to cleaner, more intelligible code. It encourages developer
+                            cooperation and makes the codebase less prone to mistakes.(Bose, 2023)</p>
+
+                        <p class="text-danger">Best Practices:</p>
+
+                        <p>Maintain a consistent coding style, including indentation, space, and naming standards.
+                            <br>
+                            <i class="text-primary"> Modularization:</i>
+                            <br>
+                            Divide code into modular components to make maintenance and scalability easier.(Bose, 2023)
+                            <br>
+                            <i class="text-primary"> Comments:</i>
+                            <br>
+                            Include brief and straightforward comments to clarify confusing portions or logic.(Bose, 2023)</p>
 
                     </p>
                 </div>
             </div>
+
+            <div class="card shadow-lg " style="width: 55rem;">
+                <img src="image/undraw_building_blocks_re_5ahy.svg" class="card-img-top"
+                    style="width: 250px; height: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Optimization Techniques <span class="badge ml-5">
+                            <i class="fa fa-heart text-danger mr-5" aria-hidden="true"></i> 150 likes
+                        </span></h5>
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                    <p class="card-text">
+                        <h6><i>Explore techniques for optimizing website performance:</i></h6>
+
+                        <p class="text-danger">Definition:</p>
+
+                        <p>The process of improving a website's speed, efficiency, and general performance is known as
+                            optimisation. It improves user experience and adds to higher search engine results.(amplifyui, 2023)</p>
+
+                        <p class="text-danger">Importance:</p>
+
+                        <p>Websites that load faster have increased user satisfaction, lower bounce rates, and higher
+                            conversion rates. Search engines also like pages that load quickly.(amplifyui, 2023)</p>
+
+                        <p class="text-danger">Techniques:</p>
+                        <p>
+                            Image Compression: Compress photos to minimise file sizes without sacrificing quality,
+                            resulting in faster website load times.
+                            Code Minification: Reduce file sizes by deleting extraneous characters, spaces, and comments
+                            from CSS, JavaScript, and HTML files.
+                            Caching Strategies: Use browser and server-side caching to save and retrieve frequently
+                            requested resources, resulting in faster load times for returning users.
+                            Lazy Loading: Save bandwidth and improve initial load times by loading pictures and other
+                            non-essential resources only when they are about to enter the user's viewport.
+                            Content Delivery Networks (CDNs) distribute website assets over several servers across the
+                            world to minimise latency and accelerate content delivery.(amplifyui, 2023)
+                        </p>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="card shadow-lg " style="width: 50rem;">
+                <img src="image/undraw_security_on_re_e491.svg" class="card-img-top"
+                    style="width: 250px; height: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Security Measures<span class="badge ml-5">
+                            <i class="fa fa-heart text-danger mr-5" aria-hidden="true"></i> 350 likes
+                        </span></h5>
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+                    <p class="card-text">
+                        <h6><i>Understand the importance of implementing security measures:</i></h6>
+
+                        <p class="text-danger">Definition:</p>
+
+                        <p>Web development security measures include practises and technology used to protect websites,
+                            user data, and sensitive information against unauthorised access, assaults, or breaches.(Aladib, 2023)</p>
+
+                        <p class="text-danger">Importance:</p>
+
+                        <p>Security is critical in order to safeguard both the website and its users. Breach can result
+                            in data loss, legal concerns, and reputational harm to the website.(Aladib, 2023)</p>
+
+                        <p class="text-danger">Best Practices:</p>
+                        <p>
+                           <i class="text-primary">SSL/TLS Encryption:</i> 
+                            <br>
+                             Use HTTPS to encrypt data exchanged between the user's browser and the
+                            server to implement secure communication.
+                            Validate and sanitise user inputs to avoid injection threats like SQL injection and
+                            cross-site scripting (XSS).
+                            Authentication and Authorization: To manage access to important portions of the website, use
+                            strong authentication techniques and enforce correct authorization.
+                            Security audits on a regular basis: Conduct security audits and vulnerability assessments on
+                            a regular basis to detect and resolve any flaws.
+                            Patching and updates: Keep software, frameworks, and plugins up to date in order to fix
+                            known vulnerabilities.(Aladib, 2023)
+                        </p>
+
+                    </p>
+                </div>
+            </div>
+
+
+
         </div>
 
 
@@ -202,23 +301,23 @@
                     </div>
                 </div>
             </div>
-            
+
             <a href="index.html" class="navbar-brand ml-auto">
-                
+
                 <img src="image/tools.png" alt="...">
             </a>
-            
+
             <span class="navbar-text ml-auto">
-                
+
                 &copy; WebCraftHub v1.0
             </span>
         </nav>
     </div>
     </nav>
-    
+
 
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
 </body>
 
